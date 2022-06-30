@@ -1,18 +1,18 @@
 {
-  "name": "project1",
+  "name": "app.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "file download",
+  "main": "newnode.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "hi"
   },
-  "author": "",
+  "author": "sukirtha",
   "license": "ISC",
   "dependencies": {
-    "connect-busboy": "^1.0.0",
+    "axios": "^0.27.2",
     "express": "^4.18.1",
     "fs": "^0.0.1-security",
+    "https": "^1.0.0",
     "multer": "^1.4.5-lts.1"
   }
 }
